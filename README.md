@@ -16,7 +16,7 @@ To get a python dict from fs string:
 from simple_cpe import SimpleCPE
 
 
-fs = 'cpe:2.3:a:microsoft:internet_explorer:8.0.6001:beta:*:*:*:*:*:*
+fs = 'cpe:2.3:a:microsoft:internet_explorer:8.0.6001:beta:*:*:*:*:*:*'
 cpe = SimpleCPE(fs)
 cpe_dict = cpe.get_values()  # returns a dict
 ```
